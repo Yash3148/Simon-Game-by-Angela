@@ -34,6 +34,7 @@ function checkAnswer(currentLevel) {
         }, 1000);
       }
     } else {
+        //Game over logic
       playSound("wrong");
       $("body").addClass("game-over");
       $("#level-title").text("Game Over, Press Any Key to Restart");
